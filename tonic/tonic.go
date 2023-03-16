@@ -18,7 +18,7 @@ import (
 )
 
 // DefaultMaxBodyBytes is the maximum allowed size of a request body in bytes.
-const DefaultMaxBodyBytes = 256 * 1024
+const DefaultMaxBodyBytes = 10 * 1024 * 1024
 
 // Fields tags used by tonic.
 const (
